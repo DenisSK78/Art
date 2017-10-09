@@ -1,0 +1,850 @@
+body{
+    /*background-color: #112435;*/
+    color: black;
+    font-family:  Geneva, Arial, Helvetica, sans-serif;
+    background: url("../picture/asfalt-dark.png");
+    background-color: #E4E4D5;
+}
+
+#div_center{
+    width: 1024px;
+    height: 680px; /*900*/
+    background: url("../picture/french-stucco.png"), repeat;
+    background-color: #fefff7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-bottom: double 3px ;
+    border-top: double 3px;
+    border-color: #697489;
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.71);
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.71);
+}
+
+.button {
+    border: 1px solid #447314;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    text-shadow: #addc7e 0 1px 0;
+    color: #31540c;
+    font-family: helvetica, serif;
+    padding: 8.5px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+    width:150px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+
+}
+.button:hover {
+    border: 1px solid #447314;
+    text-shadow: #31540c 0 1px 0;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    color: #fff;
+}
+.button:active {
+    text-shadow: #31540c 0 1px 0;
+    border: 1px solid #447314;
+    background: #8dc059;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+    background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+    background: -moz-linear-gradient(top, #6aa436, #8dc059);
+    background: -ms-linear-gradient(top, #6aa436, #8dc059);
+    background: -o-linear-gradient(top, #6aa436, #8dc059);
+    background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+    color: #fff;
+}
+
+#div_header{
+    width: 1024px;
+    height: 45px;
+    background-color: rgba(0,0,0,0);
+    /*background: url(pics/fon.png);*/
+    /*background-repeat: repeat;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_afterHeader {
+    width: 1024px;
+    height: 38px;
+    /*background: url(pics/fon.png);*/
+    /*background-repeat: repeat;*/
+    background-color: rgba(0,0,0,0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_logo1{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 65px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: 400;
+    letter-spacing: -4pt;
+
+    color: #4A4A4A;
+    width: 250px;
+    height: 70px;
+    /*padding-top: 0px;*/
+    padding-left: 15px;
+    float: left;
+    text-shadow: rgb(213, 213, 213) 4px 4px 0px, rgba(0, 0, 0, 0.2) 7px 7px 0px;
+
+
+}
+
+#div_logo2{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+    color: #4A4A4A;
+    font-size: 1em;
+    width: 140px;
+    height: 70px;
+    float: left;
+    padding-top: 16px;
+    text-shadow: rgb(213, 213, 213) 4px 4px 0px, rgba(0, 0, 0, 0.2) 7px 7px 0px;
+    /*text-shadow: 2px 2.5px 0.5px rgba(0, 0, 0, 0.25), 1px 1px 1px #2C2C2C;;*/
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.firstPD{
+    width: 145px;
+    height: 70px;
+    border-radius: 5px;
+    border: double 3px #0B6BDB;
+    /*border-color: #B34EE9;*/
+    margin: 7px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    line-height: 3em;
+    color: #0B6BDB;
+    font-weight: 500;
+}
+
+.firstPD:hover{
+    border: solid 3px;
+    border-color: #0B6BDB;
+    box-shadow:0px 0px 7px 1px rgba(0,0,0,0.2) inset;
+}
+
+#d1{
+    margin-left: 23px;
+}
+
+.firstPD:active{
+    color: #40C4FE;
+}
+
+#all6div{
+    width: 1024px;
+    height: 107px;
+}
+
+#second{
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 35px;
+    float: left;
+}
+
+#secondGL{
+    width: 1000px;
+    height: 40px;
+}
+
+#third{
+    width: 970px;
+    height: 390px;
+    border: solid 2px #208E24;
+    margin-left: 26px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #FFFFFF;
+
+}
+
+#fourth{
+    width: 970px;
+    height:90px;
+    border: solid 2px #208E24;
+    margin-left: 26px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #FFFFFF;
+
+}
+
+.div3_vAud{
+    /*border: solid 1px #CDCDCD;*/
+} /*вёрстка*/
+
+.div3_vAut{
+    /*border: solid 1px #CDCD9D;*/
+} /*вёрстка*/
+
+.div3_vObj{
+    /*border: solid 1px #9DCDA5;*/
+} /*вёрстка*/
+
+.div3_vEve{
+    /*border: solid 1px #9DCDE7;*/
+} /*вёрстка*/
+
+#d1r{
+    width: 969px;
+    height: 15px;
+    float: left;
+}
+
+#d2r{
+    width: 40px;
+    height: 365px;
+    float: left;
+}
+
+#d3r{
+    width: 250px;
+    height: 280px;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+    text-shadow: 0px 1px 1px #FFFFFF;
+    border-left: solid 2px #FFDD00;
+    /*border-bottom: solid 2px #FFDD00;*/
+    /*border-bottom-left-radius: 4px;*/
+}
+
+#d3r p{
+    margin: 13px;
+}
+
+
+#d4r{
+    width: 350px;
+    height: 280px;
+    float: left;
+}
+
+#d4r p{
+    margin: 13px;
+    margin-left: 0px;
+    margin-top: 18px;
+}
+
+#d5r{
+    width: 300px;
+    height: 280px;
+    float: left;
+}
+
+#d6r{
+    width: 880px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}
+
+#d6r p{
+    margin: 20px;
+}
+
+#Div_d6r1{
+    width: 200px;
+    float: left;
+}
+
+#Div_d6r2{
+    width: 650px;
+    height: 55px;
+    float: right;
+    font-size: 14px;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.1);
+    color: #5C5C5C;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+}
+
+#d7r{
+    width: 960px;
+    height: 5px;
+    float: left;
+}
+
+#drob{
+    color: #266BDB;
+    width: 50px;
+    float: left;
+    text-align: right;
+}
+
+#drob2{
+    color: #266BDB;
+    width: 50px;
+    float: left;
+    text-align: left;
+}
+
+.modal_form {
+    width: 1020px;
+    height: 560px;
+    border-radius: 15px;
+    background: url("../picture/french-stucco.png"), repeat;
+    background-color: #fefff7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+    border: solid 1px #949494;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#overlay {
+    z-index:3;
+    position:fixed;
+    background-color:#000;
+    opacity:0.6;
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    cursor:pointer;
+    display:none;
+}
+
+#secondMod{
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 35px;
+    text-shadow: 0px 1px 1px #FFFFFF;
+
+}
+
+#thirdMod{
+    width: 970px;
+    height: 390px;
+    border: solid 2px #208E24;
+    margin-left: 26px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #FFFFFF;
+}
+
+#fourthMod{
+    width: 970px;
+    height:90px;
+    border: solid 2px #208E24;
+    margin-left: 26px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #FFFFFF;
+}
+
+#d1rMod{
+    width: 969px;
+    height: 15px;
+    float: left;
+}
+
+#d2rMod{
+    width: 40px;
+    height: 365px;
+    float: left;
+}
+
+#d3rMod{
+    width: 250px;
+    height: 280px;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+    text-shadow: 0px 1px 1px #FFFFFF;
+    border-left: solid 2px #FFDD00;
+    /*border-bottom: solid 2px #FFDD00;*/
+    /*border-bottom-left-radius: 4px;*/
+}
+
+#d3rMod p{
+    margin: 13px;
+}
+
+#d4rMod{
+    width: 350px;
+    height: 280px;
+    float: left;
+}
+
+#d4rMod p{
+    margin: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#d5rMod{
+    width: 300px;
+    height: 280px;
+    float: left;
+}
+
+#d6rMod{
+    width: 880px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}
+
+#d6rMod p{
+    margin: 20px;
+}
+
+#Div_d6r1Mod{
+    width: 200px;
+    float: left;
+}
+
+#Div_d6r2Mod{
+    width: 650px;
+    height: 55px;
+    float: right;
+    font-size: 14px;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.1);
+    color: #5C5C5C;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+}
+
+#d7rMod{
+    width: 960px;
+    height: 5px;
+    float: left;
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 335px;
+    font-size: 20px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    border: 1px solid #B8B8B8;
+    border-radius: 3px;
+    background-color: #F6F6F6;
+    padding-left: 20px;
+}
+
+#dateEve{
+    font-size: 20px;
+    width: 335px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+#prime4{
+    height: 53px;
+    width: 652px;
+    font-size: 16px;
+}
+
+#conObj4x{
+    width: 70px; !important;
+    font-size: 15px;
+    margin-right: 34px;
+}
+#conObj4y{
+    width: 70px; !important;
+    margin-right: 34px;
+    font-size: 15px;
+}
+#conObj4z{
+    width: 70px; !important;
+    font-size: 15px;
+}
+
+#div_centerAdm{
+    width: 1150px;
+    height: 582px; /*900*/
+    background: url("../picture/french-stucco.png"), repeat;
+    background-color: #fefff7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-bottom: double 3px ;
+    border-top: double 3px;
+    border-color: #697489;
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.71);
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.71);
+}
+
+.divAdm{
+    width: 1080px;
+    border: solid 2px #208E24;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #FFFFFF;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.nameBlockAdm{
+    border-bottom: double 3px;
+    border-color: #0B6BDB;
+    text-shadow: 0px 1px 1px #FFFFFF;
+    width: 400px;
+    height: 40px;
+    /*margin-left: 30px;*/
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#insAdmNUbut{
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+#delAdmNUbut{
+    margin: auto;
+    width: 120px;
+    height: 35px;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+#insAdm{
+    width: 530px;
+    height: 155px;
+    float: left;
+}
+
+#delAdm{
+    width: 510px;
+    height: 175px;
+    float: left;
+    padding-left: 20px;
+    border-left: solid 2px #FFDD00;
+}
+
+#pasAdmNU{
+margin-top: 18px;
+}
+
+#d1Adm{
+    height: 260px;
+}
+
+#d2adm{
+    height: 210px;
+}
+
+#d3Adm{
+    height: 250px;
+}
+
+#ViborPMbut{
+    margin: auto;
+    width: 120px;
+    height: 35px;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+#workAdm{
+    width: 530px;
+    height: 155px;
+    float: left;
+}
+
+#workAdm2{
+    width: 530px;
+    height: 135px;
+    float: left;
+    border-left: solid 2px #FFDD00;
+}
+
+#formRDadm{
+    width: 1020px;
+    height: 560px;
+    border-radius: 15px;
+    background: url("../picture/french-stucco.png"), repeat;
+    background-color: #fefff7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+    border: solid 1px #949494;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #4A4A4A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#admModDiv1{
+    width: 800px;
+    height: 300px;
+    float: left;
+    padding: 30px;
+}
+
+#DelPodm{
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+#DobPodm{
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+#vixodAdmin{
+
+    margin-left: 380px;
+}
+
+#vixodAdmin2{
+
+    margin-left: 450px;
+}
+
+.req{
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 25px;
+    width: 260px;
+    border: double 3px #0B6BDB;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.req:hover{
+    border: solid 3px #0B6BDB;
+}
+
+.req:active{
+    background-color: #A2C8EB;
+}
+
+#audReq{
+    margin-top: 70px;
+}
+
+#eveReqNear{
+    margin-top: 110px;
+}
+
+#audReqCon{
+    margin-top: 70px;
+}
+
+.name{
+    text-align: center;
+    /*margin: auto;*/
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 30px;
+    width: 200px;
+
+    border-bottom: solid 1px #0B6BDB;
+}
+
+th{
+    border: solid 1px #C7C7C7;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+}
+
+td{
+    border: solid 1px #B0BED9;
+    background-color: #F5F5F5;
+}
+
+#req{
+    margin-left: 260px;
+    margin-top: 180px;
+}
+
+#reqSelbut{
+    margin: auto;
+    width: 120px;
+    height: 35px;
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+
+.Pd4rAut{
+    margin-top: 14px !important;
+}
+
+#message {
+   padding-left: 40px;
+}
+
+#nameQuery{
+    width: 120px;
+    height: 35px;
+    float: left;
+
+}
+
+#dilog{
+    background: url("../picture/french-stucco.png"), repeat;
+    background-color: #fefff7;
+}
+
+#Yes{
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    /*float: left;*/
+}
+
+#No{
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    margin-left: 35px;
+    /*float: left;*/
+}
+
+#search{
+    width: 400px;
+    height: 40px;
+    float: right;
+
+}
+
+#butSearch{
+    margin: auto;
+    width: 55px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+#reqAutCon{
+    margin: auto;
+    width: 120px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+
+
+/*#exit{*/
+    /*background: url("../picture/french-stucco.png"), repeat;*/
+    /*background-color: #fefff7;*/
+    /*width: 50px;*/
+    /*height: 40px;*/
+    /*float: right;*/
+    /*border: solid 1px #208E24;*/
+
+    /*text-align: center;*/
+    /*line-height: 3em;*/
+    /*color: #208E24;*/
+    /*font-weight: 500;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.71);*/
+    /*font-size: 14px;*/
+    /*margin-top: 20px;*/
+/*}*/
+
+/*#exit:hover{*/
+    /*border: solid 2px;*/
+    /*border-color: #208E24;*/
+    /*box-shadow:0px 0px 7px 1px rgba(0,0,0,0.2) inset;*/
+/*}*/
+
